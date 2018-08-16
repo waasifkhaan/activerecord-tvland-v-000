@@ -6,4 +6,5 @@ class Actors < ActiveRecord::Migration[4.2]
       t.string :first_name
       t.string :last_name
     end
+  end 
   end
