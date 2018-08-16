@@ -4,6 +4,7 @@ class Characters < ActiveRecord::Migration[4.2]
       #primary key of :id is created for us!
       t.string :name
       t.integer :show_id
+      r_integer :actor_id
     end
   end 
 end
